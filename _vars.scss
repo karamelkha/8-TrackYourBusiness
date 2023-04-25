@@ -1,0 +1,40 @@
+$font: "Comic Neue", cursive;
+$colorBlack: #151515;
+$colorWhite: #ffffff;
+$colorGray: #f0f0f0;
+$borderGray: 1px solid $colorGray;
+$borderWhite: 1px solid $colorWhite;
+$borderBlack: 1px solid $colorBlack;
+$mobile: 360px;
+$laptopL: 1440px;
+$laptop: 1024px;
+
+@mixin font($fontSize, $fontWeight, $lineH, $letterSpacing) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineH;
+  letter-spacing: $letterSpacing;
+}
+
+@mixin forms($width, $height, $bkg, $color, $border, $text-al, $padX, $padY) {
+  @include font(18px, 400, 26px, 0px);
+  width: $width;
+  height: $height;
+  background: $bkg;
+  color: $color;
+  border: $border;
+  text-align: $text-al;
+  padding: $padX $padY;
+}
+
+@mixin imgSize($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin card($bordercolor, $bkg, $color) {
+  border: 1px solid;
+  border-color: $bordercolor;
+  background-color: $bkg;
+  color: $color;
+}

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img src="./svg/logo.svg" alt="logo" />
+        <ul class="nav__items">
+          <li>
+            <a href="#about"> About us </a>
+          </li>
+          <li>
+            <a href="#work"> How it works </a>
+          </li>
+          <li>
+            <a href="#price"> Pricing </a>
+          </li>
+          <li>
+            <a href="#FAQS"> FAQs </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__auth">
+        <li><button>Login</button></li>
+        <li><button class="nav__signBtn">Sign Up</button></li>
+      </ul>
+
+      <div class="header__mobile">
+        <div class="header__mobile--Title">
+          <img id="openMobile" src="./svg/logo.svg" alt="logo" />
+          <img
+            width="52"
+            height="52"
+            src="./svg/mobilemenu.svg"
+            alt="mobile menu"
+          />
+        </div>
+        <div class="header__mobile--Menu">
+          <ul class="header__mobile--Menu__items">
+            <li>
+              <a href="#about"> About us </a>
+            </li>
+            <li>
+              <a href="#work"> How it works </a>
+            </li>
+            <li>
+              <a href="#price"> Pricing </a>
+            </li>
+            <li>
+              <a href="#FAQS"> FAQs </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="content__wrapper--hero">
+        <div class="content">
+          <h1>
+            Always Track & <br />
+            Analyze Your Business Statistics To Succeed.
+          </h1>
+          <p class="content__desc">
+            A better way to manage your sales, team, clients & marketing — on a
+            single platform. Powerful, affordable & easy.
+          </p>
+          <form class="content__form" action="post">
+            <label for="inputHero">
+              <input
+                type="email"
+                name="inputHero"
+                id="inputHero"
+                autocomplete="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button type="submit">Get started</button>
+          </form>
+          <ul class="content__pays">
+            <li>
+              <img
+                width="86"
+                height="40"
+                src="./svg/payVISA.svg"
+                alt="payment method"
+              />
+            </li>
+            <li>
+              <img
+                width="60"
+                height="40"
+                src="./svg/payMC.svg"
+                alt="payment method"
+              />
+            </li>
+            <li>
+              <img
+                width="120"
+                height="40"
+                src="./svg/payPal.svg"
+                alt="payment method"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__img">
+          <img id="imgHero" src="./img/hero.png" alt="hero image" />
+        </div>
+      </section>
+
+      <section id="about" class="content__wrapper">
+        <div class="content__img">
+          <img id="imgAboutUs" src="./img/aboutUs.png" alt="about us" />
+        </div>
+        <div class="content">
+          <button class="content__btnLink">ABOUT US</button>
+          <h1>Faster, friendlier feedback loops make life easier.</h1>
+          <p class="content__desc">
+            Add a Viewer to your team so they can see everything you share, or
+            invite people to individual documents. It’s up to you. Stakeholders
+            can check out designs in their web browser, test prototypes and
+            leave feedback for free.
+          </p>
+          <ul class="content__benefits">
+            <li>Shared Cloud Libraries, for a single source of truth</li>
+            <li>Prototype previews for user testing and research</li>
+            <li>Easy organization with projects</li>
+            <li>Free developer handoff, right inside the browser</li>
+            <li>Two-factor authentication and SSO</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="work" class="content__wrapper--hero">
+        <div class="content">
+          <button class="content__btnLink">HOW IT WORKS</button>
+          <h1>Building the best space for collaboration.</h1>
+
+          <ul class="content__works">
+            <li class="content__work">
+              <img src="./svg/pazle.svg" alt="Shared Cloud Libraries" />
+              <div>
+                <h2>Shared Cloud Libraries</h2>
+                <p>
+                  Navigate to the Your work panel in the left sidebar. Select
+                  the library you want to share. Select the Share icon in the
+                  upper right to share the library.
+                </p>
+              </div>
+            </li>
+
+            <li class="content__work">
+              <img
+                src="./svg/handoff.svg"
+                alt="Free developer handoff, right inside"
+              />
+              <div>
+                <h2>Free developer handoff, right inside</h2>
+                <p>
+                  Cloud Inspector makes it easy for developers to get the
+                  information they need to turn pixels into code — all in the
+                  browser and, most importantly, for free.
+                </p>
+              </div>
+            </li>
+
+            <li class="content__work">
+              <img src="./svg/real-time.svg" alt="Shared Cloud Libraries" />
+              <div>
+                <h2>Real-time collaborative editing</h2>
+                <p>
+                  Room Service helps you build real-time collaborative features.
+                  Add real-time data sync! Let users edit the same data at the
+                  same time.
+                </p>
+              </div>
+            </li>
+
+            <li class="content__work">
+              <img src="./svg/integration.svg" alt="Shared Cloud Libraries" />
+              <div>
+                <h2>Integrations with the Cloud API</h2>
+                <p>
+                  Unlocking that value requires an iPaaS that delivers the
+                  transformative power of APIs and integration.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="content__img">
+          <img id="imgWork" src="./img/work.png" alt="how it works" />
+        </div>
+      </section>
+
+      <section id="price" class="price">
+        <div class="price__wrapper">
+          <div class="content__img">
+            <img id="imgPrice" src="./img/price.png" alt="price" />
+          </div>
+          <div class="price__content">
+            <button class="content__btnLink">PRICING</button>
+            <h1>Select a membership level the right price for you.</h1>
+            <p>
+              Prices listed in USD. Taxes may apply. By using program you agree
+              to our terms and policies.
+            </p>
+          </div>
+        </div>
+
+        <ul class="price__cards">
+          <li class="price__card price__card--gray">
+            <div class="price__items">
+              <div class="pricecheck">
+                <span>$</span>
+                <div>49</div>
+                <p>per month</p>
+              </div>
+              <h2>A pay-once license, just for you</h2>
+              <ul>
+                <li>The Mac app — yours to keep</li>
+                <li>Beautiful White_level</li>
+                <li>One year of saving to Cloud</li>
+              </ul>
+            </div>
+            <button class="price__btn price__btn--black" type="button">
+              Join
+            </button>
+          </li>
+
+          <li class="price__card price__card--white">
+            <div class="price__items">
+              <div class="pricecheck">
+                <span>$</span>
+                <div>99</div>
+                <p>per month</p>
+              </div>
+              <h2>Pro account, just for you</h2>
+              <ul>
+                <li>The Mac app — yours to keep</li>
+                <li>Beautiful White_level</li>
+                <li>One year of saving to Cloud</li>
+              </ul>
+            </div>
+            <button class="price__btn price__btn--black" type="button">
+              Join
+            </button>
+          </li>
+
+          <li class="price__card price__card--white">
+            <div class="price__items">
+              <div class="pricecheck">
+                <span>$</span>
+                <div>299</div>
+                <p>per month</p>
+              </div>
+              <h2>A subscription for the whole team</h2>
+              <ul>
+                <li>The Mac app — yours to keep</li>
+                <li>Beautiful White_level</li>
+                <li>One year of saving to Cloud</li>
+              </ul>
+            </div>
+            <button class="price__btn price__btn--black" type="button">
+              Join
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="FAQS" class="content__wrapper">
+        <div class="content">
+          <button class="content__btnLink">FAQS</button>
+          <h1>Common Questions.</h1>
+          <p class="content__desc">
+            The online form also provides links to a set of frequently asked
+            questions, other information materials related to the financial
+            disclosure programme.
+          </p>
+
+          <div class="accordeon">
+            <details>
+              <summary>How much does a Teams subscription cost?</summary>
+              <div>
+                Contributors are members of your team who need access to use the
+                Mac app to create and edit Sketch documents. These prices don’t
+                include sales tax, which may still apply. Head over to our
+                pricing page to get full details.
+              </div>
+            </details>
+
+            <span class="accordeon__line"></span>
+
+            <details>
+              <summary>
+                Do I still need to purchase licenses for the Mac app?
+              </summary>
+              <div>
+                Contributors are members of your team who need access to use the
+                Mac app to create and edit Sketch documents. These prices don’t
+                include sales tax, which may still apply. Head over to our
+                pricing page to get full details.
+              </div>
+            </details>
+
+            <span class="accordeon__line"></span>
+
+            <details>
+              <summary>
+                What are the differences between Contributors and Viewers?
+              </summary>
+              <div>
+                Contributors are members of your team who need access to use the
+                Mac app to create and edit Sketch documents. These prices don’t
+                include sales tax, which may still apply. Head over to our
+                pricing page to get full details.
+              </div>
+            </details>
+
+            <span class="accordeon__line"></span>
+
+            <details>
+              <summary>
+                How long does the free Teams subscription trial last?
+              </summary>
+              <div>
+                Contributors are members of your team who need access to use the
+                Mac app to create and edit Sketch documents. These prices don’t
+                include sales tax, which may still apply. Head over to our
+                pricing page to get full details.
+              </div>
+            </details>
+            <span class="accordeon__line"></span>
+
+            <details>
+              <summary>
+                Will program for Teams replace volume licensing?
+              </summary>
+              <div>
+                Contributors are members of your team who need access to use the
+                Mac app to create and edit Sketch documents. These prices don’t
+                include sales tax, which may still apply. Head over to our
+                pricing page to get full details.
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="content__img">
+          <img id="imgWork" src="./img/question.png" alt="questions" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__icons">
+          <img
+            class="footer__icons--logo"
+            width="52"
+            height="52"
+            src="./svg/logoWhite.svg"
+            alt="logo"
+          />
+          <div class="footer__socials">
+            <img src="./svg/social_facebook.svg" alt="facebook" />
+            <img src="./svg/social_twitter.svg" alt="twitter" />
+            <img src="./svg/social_google.svg" alt="google" />
+            <img src="./svg/social_inst.svg" alt="instagram" />
+            <img src="./svg/social_youtube.svg" alt="youtube" />
+          </div>
+          <p>Want to recieve our awesome stories?</p>
+          <form class="footer__form" action="post">
+            <label for="inputFooter">
+              <input
+                type="email"
+                name="inputFooter"
+                autocomplete="email"
+                id="inputFooter"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button type="submit">Subcribe</button>
+          </form>
+          <div class="footer__about">© 18 Design, all rights reserved.</div>
+        </div>
+        <ul class="footer__lists">
+          <ul class="footer__list footer__auth">
+            <li><strong> Email</strong></li>
+            <li><a href="#"> info@the18.design</a></li>
+          </ul>
+          <ul class="footer__list footer__aboutlinks">
+            <li><a href="#abour"> About us </a></li>
+            <li><a href="#work"> How it works</a></li>
+            <li><a href="#price">Pricing </a></li>
+            <li><a href="#FAQs">FAQs </a></li>
+          </ul>
+
+          <ul class="footer__list">
+            <li><a href="#"> Lead generation</a></li>
+            <li><a href="#"> Customer engagement</a></li>
+            <li><a href="#">Customer support </a></li>
+            <li><a href="#"> Help Center Articles</a></li>
+            <li><a href="#"> Outbound Messages</a></li>
+          </ul>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      // const header = document.querySelector(".header");
+      // const mobile = document.querySelector("mobile");
+      // const btnOpenMobile = document.getElementById("openMobile");
+      // btnOpenMobile.addEventListener("click", function () {
+      //   mobile.classList.toggle("hidden");
+      // });
+    </script>
+  </body>
+</html>
